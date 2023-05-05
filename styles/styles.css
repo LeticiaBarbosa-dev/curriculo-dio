@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    background-color: #FCFCFC;
+    padding: 2.5rem;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 32px;
+    height: 32px;
+}
+
+.header #instagram {
+    font-size: 16px;
+    font-weight: 700;
+    color: #9C2BAD;
+
+    margin-left: 8px;
+}
+
+.body {
+}
+
+.left {
+    background-color: #F1F1F1;
+    color: #3B3B3B;
+
+    width: 29.31rem;
+    height: 100%;
+
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-top: 3rem;
+}
+
+#nome {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.info {
+    margin-top: 3.75rem;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.item-info span, .habilidades .title {
+    font-size: 22px;
+}
+
+.ph {
+    margin-right: 12px;
+    color: #9C2BAD;
+}
+
+.item-info i {
+    font-size: 28px;
+}
+
+.habilidades .title{
+    margin: 48px 0 20px 0;
+    font-weight: 600;
+}
+
+.habilidades .habilidade {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 24px;
+}
+
+.barra_de_progresso, .progresso {
+    height: 25px;
+    border-radius: 32px;
+}
+
+.barra_de_progresso {
+    width: 26.81rem;
+    background-color: #D9D9D9;
+    margin-bottom: 28px;
+}
+
+.progresso {
+    width: 50%;
+    background-color: #9C2BAD;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
